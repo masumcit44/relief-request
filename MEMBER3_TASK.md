@@ -8,15 +8,15 @@ Map API and Logic Integrator
 - SOS markers (`src/components/map/SosMarker.tsx`)
 - Urgency color logic (`src/lib/markerColor.ts`)
 - Marker popup details (`src/components/map/MarkerPopup.tsx`)
-- Mark-as-rescued interaction (`src/hooks/useSosFeed.ts` & `src/lib/sosApi.ts`)
+- Mark-as-rescued interaction (`src/hooks/useSosFeed.ts`)
 - Demo seed data (`src/lib/mock/sos.mock.json`)
 - Rescuer dashboard page (`src/app/rescuer/page.tsx`)
 
-## Branch
+## Expected Branch
 `feature/member3-rescue-map`
 
 ## Local Development
-Run on port 3003:
+Port: 3003
 ```bash
 npm run dev -- --port 3003
 ```
