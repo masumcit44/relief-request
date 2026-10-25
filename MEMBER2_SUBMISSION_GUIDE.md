@@ -195,3 +195,4 @@ Share the following with Member 1 & Member 3 privately (e.g. team chat, do not p
 1. `NEXT_PUBLIC_SUPABASE_URL`
 2. `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 3. Instruct them to set `NEXT_PUBLIC_USE_MOCK=false` in their local `.env.local` to enable live end-to-end synchronization!
+
