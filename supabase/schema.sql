@@ -1,4 +1,9 @@
--- [M2] schema.sql table + indexes + realtime publication
+-- ==============================================================================
+-- ReliefRequest Database Schema
+-- Owned by Member 2 (Backend & Database Specialist)
+-- Target: Supabase Postgres
+-- ==============================================================================
+
 create extension if not exists pgcrypto;
 
 create table if not exists sos_requests (
@@ -14,5 +19,15 @@ create table if not exists sos_requests (
 
 create index if not exists idx_sos_status_timestamp on sos_requests (status, timestamp desc);
 
-alter publication supabase_realtime add table sos_requests;
-
+-- CRITICAL: Add table to realtime publication so rescuer map receives live updates
+do $$
+begin
+  if not exists (
+    select 1
+    from pg_publication_tables
+    where pubname = 'supabase_realtime'
+      and tablename = 'sos_requests'
+  ) then
+    alter publication supabase_realtime add table sos_requests;
+  end if;
+end $$;
