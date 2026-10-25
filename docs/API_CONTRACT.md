@@ -1,7 +1,7 @@
 # ReliefRequest — Frozen API Contract & Specification
 
 **Owner**: Member 2 (Backend, Database & Integration Specialist)  
-**Status**: FROZEN (All field names, constraints, and method signatures are locked)
+**Status**: FROZEN (All field names, constraints, and method signatures are locked across all member branches)
 
 ---
 
