@@ -1,0 +1,43 @@
+[
+  {
+    "id": "m-1",
+    "name": "Rahima Begum",
+    "people_count": 6,
+    "urgency": "High",
+    "lat": 23.0159,
+    "lng": 91.3976,
+    "status": "pending",
+    "timestamp": "2024-08-23T09:12:00Z"
+  },
+  {
+    "id": "m-2",
+    "name": "Karim Mia",
+    "people_count": 3,
+    "urgency": "Medium",
+    "lat": 22.9800,
+    "lng": 91.4200,
+    "status": "pending",
+    "timestamp": "2024-08-23T09:30:00Z"
+  },
+  {
+    "id": "m-3",
+    "name": "Shapla Akter",
+    "people_count": 9,
+    "urgency": "High",
+    "lat": 22.8696,
+    "lng": 91.0995,
+    "status": "pending",
+    "timestamp": "2024-08-23T10:02:00Z"
+  },
+  {
+    "id": "m-4",
+    "name": "Jamal Uddin",
+    "people_count": 2,
+    "urgency": "Medium",
+    "lat": 23.4607,
+    "lng": 91.1809,
+    "status": "rescued",
+    "timestamp": "2024-08-23T08:45:00Z"
+  }
+]
+
